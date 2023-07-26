@@ -1,5 +1,5 @@
 #주제
-F1 결과 크롤링/ 분석/ 시각화
+경기 종료 후 F1 결과 크롤링/ 분석/ 시각화
 (RACE RESULT, FASTEST LAPS, PIT STOP SUMMARY)
 
 #url
