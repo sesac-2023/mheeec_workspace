@@ -1,0 +1,572 @@
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=IBM+Plex+Mono:wght@290;500&display=swap" rel="stylesheet">
+<title>FORMULA 1</title>
+<style>
+  ::-webkit-scrollbar {
+  width: 5px; /* 스크롤바의 너비 */
+}
+
+/* 스크롤바 바탕색 */
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* 스크롤바 핸들(바) 스타일 */
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background-color: #E3E3E3;
+}
+
+/* 스크롤바 핸들(바)을 드래그했을 때 스타일 */
+::-webkit-scrollbar-thumb:hover {
+  background: #E3E3E3;
+}
+      h1{
+          font-family: 'Black Han Sans', sans-serif;
+      }
+      table {
+          border-collapse: collapse;
+          font-size: 16px
+        }
+      td {
+          text-align: center; 
+        }
+      tr:nth-child(2n) {
+          background-color: #F3F3F3;
+
+        }
+      tr:nth-child(0) {
+          background-color: #F90303;
+      }
+      .table-2 tbody td {
+            padding: 4.6px;
+        }
+      .base-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .top-box {
+        background-color: #F90303;
+        height: 60px;
+        border-radius: 30px 30px 0 0;
+      }
+
+      .bottom-box {
+        display: flex;
+      }
+      .left-box {
+        flex-basis: 258px;
+        background-color: #E3E3E3;
+        font-family: 'Black Han Sans', sans-serif;
+        font-family: 'IBM Plex Mono', monospace;
+      }
+      .middle-box {
+        overflow: scroll;
+        flex: 1;
+        background: linear-gradient(#F90303 24px, transparent 20px), #f3f3f3;
+      }
+      .right-box {
+        flex-basis: 340px;
+        background-color: #E3E3E3;
+        font-family: 'Black Han Sans', sans-serif;
+        font-family: 'IBM Plex Mono', monospace;
+      }
+      .line {
+        border-bottom: 2px solid white;
+        position: absolute;
+        top: 8%; /* 상자의 세로 중앙에 위치 */
+        left: 8%; /* 왼쪽 정렬 */
+        width: 85%;
+        
+        }
+      .image-1 {
+        position: absolute;
+        top: 29px;
+        right: 180px;
+      }
+      .text {
+            font-weight: bold;
+            margin-top: 8px;
+            font-size: 26px;
+            color: #000000;
+            text-align: center;
+            font-family: 'Black Han Sans', sans-serif;
+            font-family: 'IBM Plex Mono', monospace;
+      }
+    </style>
+</head>
+<body>
+  <div class="base-box">
+    <div class="top-box">
+      <p class="text">FORMULA1 2023 BELGIAN GP</p>
+      <img src="https://user-images.githubusercontent.com/138412265/258709861-d7230c30-e6d0-4ed4-a3b6-f71d3c21f634.png" width="40" height="40" class="image-1"/></div>
+    <div class="line"></div>
+    <div class="bottom-box">
+      <div class="left-box">
+        <table style="width: 100%">
+          <thead style="background-color: #F90303;">
+            <tr>
+              <td>POS</td>
+              <td>DRIVER</td>
+              <td></td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>LEC</td>
+              <td><img src="https://user-images.githubusercontent.com/138412265/258709862-d0f624bd-5f85-4825-89d6-80af58ecb6e0.png" width="35" height="29" /></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>PER</td>
+              <td><img src="https://user-images.githubusercontent.com/138412265/258709872-b851904c-cf68-4478-972d-80da79b128f5.png" width="35" height="29" /></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>HAM</td>
+              <td><img src="https://user-images.githubusercontent.com/138412265/258709868-0a30e65a-841b-4b84-9858-ab5446e92329.png" width="35" height="29" /></td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>SAI</td>
+              <td><img src="https://user-images.githubusercontent.com/138412265/258709862-d0f624bd-5f85-4825-89d6-80af58ecb6e0.png" width="35" height="29" /></td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>PIAO</td>
+              <td><img src="https://user-images.githubusercontent.com/138412265/258709866-46d4d566-5a99-4784-9f59-54e9e3e76093.png" width="35" height="29" /></td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>VER</td>
+              <td><img src="https://user-images.githubusercontent.com/138412265/258709872-b851904c-cf68-4478-972d-80da79b128f5.png" width="35" height="29" /></td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>NORL</td>
+              <td><img src="https://user-images.githubusercontent.com/138412265/258709866-46d4d566-5a99-4784-9f59-54e9e3e76093.png" width="35" height="29" /></td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>RUSG</td>
+              <td><img src="https://user-images.githubusercontent.com/138412265/258709868-0a30e65a-841b-4b84-9858-ab5446e92329.png" width="35" height="29" /></td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>ALO</td>
+              <td><img src="https://user-images.githubusercontent.com/138412265/258709858-c3e48cb7-c4b2-4cb0-9ad8-098d80fa1f83.png" width="35" height="29" /></td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>STR</td>
+              <td><img src="https://user-images.githubusercontent.com/138412265/258709858-c3e48cb7-c4b2-4cb0-9ad8-098d80fa1f83.png" width="35" height="29" /></td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td>TSU</td>
+              <td><img src="https://user-images.githubusercontent.com/138412265/258709851-7ce07d8b-8c41-4812-906f-f7639a0c7fa9.png" width="35" height="29" /></td>
+            </tr>
+            <tr>
+              <td>12</td>
+              <td>GAS</td>
+              <td><img src="https://user-images.githubusercontent.com/138412265/258709853-1274671f-c4ea-41da-8c5f-acc3ee98f6ee.png" width="35" height="29" /></td>
+            </tr>
+            <tr>
+              <td>13</td>
+              <td>BOT</td>
+              <td><img src="https://user-images.githubusercontent.com/138412265/258709877-913292be-a956-4fa8-8287-2c107638dde7.png" width="35" height="29" /></td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td>OCO</td>
+              <td><img src="https://user-images.githubusercontent.com/138412265/258709853-1274671f-c4ea-41da-8c5f-acc3ee98f6ee.png" width="35" height="29" /></td>
+            </tr>
+            <tr>
+              <td>15</td>
+              <td>ALBA</td>
+              <td><img src="https://user-images.githubusercontent.com/138412265/258709876-a14343b9-6ffa-41dd-b2a0-542a70ab5a73.png" width="35" height="29" /></td>
+            </tr>
+            <tr>
+              <td>16</td>
+              <td>MAG</td>
+              <td><img src="https://user-images.githubusercontent.com/138412265/258709864-8147a2fc-a89a-4907-b18f-447a2b3348ff.png" width="35" height="29" /></td>
+            </tr>
+            <tr>
+              <td>17</td>
+              <td>ZHOU</td>
+              <td><img src="https://user-images.githubusercontent.com/138412265/258709877-913292be-a956-4fa8-8287-2c107638dde7.png" width="35" height="29" /></td>
+            </tr>
+            <tr>
+              <td>18</td>
+              <td>SARL</td>
+              <td><img src="https://user-images.githubusercontent.com/138412265/258709876-a14343b9-6ffa-41dd-b2a0-542a70ab5a73.png" width="35" height="29" /></td>
+            </tr>
+            <tr>
+              <td>19</td>
+              <td>RIC</td>
+              <td><img src="https://user-images.githubusercontent.com/138412265/258709851-7ce07d8b-8c41-4812-906f-f7639a0c7fa9.png" width="35" height="29" /></td>
+            </tr>
+            <tr>
+              <td>20</td>
+              <td>HUL</td>
+              <td><img src="https://user-images.githubusercontent.com/138412265/258709864-8147a2fc-a89a-4907-b18f-447a2b3348ff.png" width="35" height="29" /></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="middle-box">
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/series-label.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+        <script src="https://code.highcharts.com/modules/export-data.js"></script>
+        <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+        
+        <figure class="highcharts-figure">
+            <div id="container" style="width: 200%; height: 581px;"></div>
+        </figure>
+        <script>
+        Highcharts.chart('container', {
+        
+        chart: {
+            backgroundColor: '#f3f3f3' // HEX 코드
+        },
+        credits: {
+                    enabled: false
+        },    
+        
+        title: {
+            text: '',
+            align: 'left'
+        },
+        
+        subtitle: {
+            text: '',
+            align: 'left'
+        },
+        
+        yAxis: {visible: false,
+            reversed:'true',
+            max:20,
+            title: {
+                text: ''
+            }
+        },
+        
+        xAxis: {
+            
+            accessibility: {
+                rangeDescription: ''
+            }
+        },
+        
+        legend: {enabled:false
+        },
+        
+        plotOptions: {
+            series: {
+                
+                lineWidth: 2,
+                label: {
+                    connectorAllowed: false
+                },
+                pointStart: 0,
+                dataLabels: { enabled: false },
+            }
+        },
+        
+        series: [{
+            name: 'LEC',
+            data: [1,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3],
+            color: '#F90303',
+            marker: { symbol: 'circle', radius: 3 }
+        }, {
+            name: 'PER',
+            data: [2,1,1,1,1,1,1,1,1,1,1,1,1,2,2,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2],
+            color: '#1400FF',
+            marker: { symbol: 'circle', radius: 3 }
+        }, {
+            name: 'HAM',
+            data: [3,3,3,3,3,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,5,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4],
+             color: '#00FFE7',
+             marker: { symbol: 'circle', radius: 3 }
+        }, {
+            name: 'SAI',
+            data: [4,5,5,5,6,8,10,13,18,17,17,18,18,17,17,17,19,19,18,19,19,19,19,19],
+            color: '#F90303',
+            marker: { symbol: 'circle', radius: 3 }
+        }, {
+            name: 'PIAO',
+            data: [5],
+             color: '#FF8300',
+             marker: { symbol: 'circle', radius: 3 }
+        }, {
+            name: 'VER',
+            data: [6,4,4,4,4,4,3,3,3,2,2,2,2,1,1,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+            color: '#1400FF',
+            marker: { symbol: 'circle', radius: 3 }
+        }, { 
+                name: 'NORL',
+            data: [7,7,7,8,10,17,17,18,15,14,15,15,15,14,15,15,16,18,19,18,18,17,15,13,9,9,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7],
+             color: '#FF8300',
+             marker: { symbol: 'circle', radius: 3 }
+        }, { 
+                name: 'RUSG',
+            data: [8,11,11,11,11,10,9,8,8,8,7,6,6,6,6,7,7,6,6,6,6,6,8,15,10,7,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6],
+             color: '#00FFE7',
+             marker: { symbol: 'circle', radius: 3 }
+        }, { 
+                name: 'ALO',
+            data: [9,6,6,6,5,5,5,5,5,5,5,9,8,8,8,6,5,5,5,5,5,5,5,5,5,5,5,5,4,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5],
+             color: '#026208',
+             marker: { symbol: 'circle', radius: 3 }
+        }, { 
+                name: 'STR',
+            data: [10,9,10,10,9,9,8,7,7,7,6,5,5,5,5,5,6,7,7,8,11,18,18,17,15,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,9,9,9,9],
+             color: '#026208',
+             marker: { symbol: 'circle', radius: 3 }
+        }, { 
+                name: 'TSU',
+            data: [11,8,8,7,7,6,6,6,6,6,11,10,9,9,9,9,9,9,9,9,8,8,7,6,6,11,9,9,9,9,9,9,9,9,9,9,9,9,10,10,10,10,10,10,10],
+             color: '#001956',
+             marker: { symbol: 'circle', radius: 3 }
+        }, { 
+                name: 'GAS',
+            data: [12,16,16,16,16,14,12,11,9,10,8,7,7,7,7,8,8,8,8,7,7,7,6,8,17,13,11,11,11,12,12,12,11,11,11,11,11,11,11,11,11,11,11,11,11],
+             color: '#FFC7F9',
+             marker: { symbol: 'circle', radius: 3 }
+        }, { 
+                name: 'BOT',
+            data: [13,12,12,13,14,13,16,19,16,16,16,16,16,15,14,14,14,14,14,14,15,13,14,9,11,17,13,13,13,13,13,13,13,12,12,12,12,12,12,12,12,12,12,12,12],
+             color: '#974C4C',
+             marker: { symbol: 'circle', radius: 3 }
+        }, { 
+                name: 'OCO',
+            data: [14,13,13,12,12,11,15,14,14,13,12,12,11,11,11,11,10,10,10,10,9,9,10,7,8,6,12,12,12,11,10,10,10,10,10,10,10,10,9,9,9,8,8,8,8],
+             color: '#FFC7F9',
+             marker: { symbol: 'circle', radius: 3 }
+        }, { 
+                name: 'ALBA',
+            data: [15,10,9,9,8,7,7,9,13,11,10,11,10,10,10,10,11,11,11,11,10,10,9,11,13,12,10,10,10,10,11,11,12,15,18,17,17,17,17,16,15,15,14,14,14],
+             color: '#6B83BB',
+             marker: { symbol: 'circle', radius: 3 }
+        }, { 
+                name: 'MAG',
+            data: [16,18,18,18,18,18,18,17,12,12,13,13,12,12,12,12,12,12,12,12,12,11,11,10,7,10,14,14,14,14,14,14,14,13,13,13,13,13,13,13,13,13,15,15,15],
+             color: '#ABABAB',
+             marker: { symbol: 'circle', radius: 3 }
+        }, { 
+                name: 'ZHOU',
+            data: [17,14,14,15,15,15,13,15,19,18,18,17,17,16,16,16,15,15,15,15,14,14,12,14,12,14,18,18,18,18,18,18,18,18,16,16,16,16,16,15,14,14,13,13,13],
+             color: '#974C4C',
+             marker: { symbol: 'circle', radius: 3 }
+        }, { 
+                name: 'SARL',
+            data: [18,15,15,14,13,12,11,10,11,19,19,19,19,18,18,18,17,16,17,17,17,16,16,16,16,18,17,17,17,17,17,17,17,17,17,18,18,18,18,18,18,18,18,17,17],
+             color: '#6B83BB',
+             marker: { symbol: 'circle', radius: 3 }
+        }, { 
+                name: 'RIC',
+            data: [19,19,19,19,19,19,19,16,17,15,14,14,14,13,13,13,13,13,13,13,13,12,17,18,18,15,16,16,16,16,16,16,16,16,15,15,15,15,15,17,17,17,16,16,16],
+             color: '#001956',
+             marker: { symbol: 'circle', radius: 3 }
+        }, { 
+                name: 'HUL',
+            data: [20,17,17,17,17,16,14,12,10,9,9,8,13,19,19,19,18,17,16,16,16,15,13,12,14,16,15,15,15,15,15,15,15,14,14,14,14,14,14,14,16,16,17,18,18],
+             color: '#ABABAB',
+             marker: { symbol: 'circle', radius: 3 }
+        },
+        
+        ],
+        
+        responsive: {
+            rules: [{
+                condition: {
+                    maxWidth: 500
+                },
+                chartOptions: {
+                    legend: {enabled:false}
+                }
+            }]
+        }
+        });
+        </script>
+        <style>
+        #container {
+          margin-top: 30px; 
+        }
+        .highcharts-figure,
+        .highcharts-data-table table {
+            margin: 1em auto;
+        }
+        
+        .highcharts-data-table table {
+            font-family: Verdana, sans-serif;
+            border-collapse: collapse;
+            border: 1px solid #ebebeb;
+            margin: 10px auto;
+            text-align: center;
+            width: 100%;
+            max-width: 500px;
+        }
+        
+        .highcharts-data-table caption {
+            padding: 1em 0;
+            font-size: 1.2em;
+            color: #555;
+        }
+        
+        .highcharts-data-table th {
+            font-weight: 600;
+            padding: 0.5em;
+        }
+        
+        .highcharts-data-table td,
+        .highcharts-data-table th,
+        .highcharts-data-table caption {
+            padding: 0.5em;
+        }
+        
+        .highcharts-data-table thead tr,
+        .highcharts-data-table tr:nth-child(even) {
+            background: #f8f8f8;
+        }
+        
+        .highcharts-data-table tr:hover {
+            background: #f1f7ff;
+        }
+        </style>
+      </div>
+      <div class="right-box">
+        <table class="table-2" style="width: 100%">
+          <thead style="background-color: #F90303" >
+          <tr>
+            <td>POS</td>
+            <td>DRIVER</td>
+            <td>TIME</td>
+            <td>STOP</td>
+          </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>VER</td>
+              <td>1:22:29.450</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>PER</td>
+              <td>+22.295s</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>LEC</td>
+              <td>+29.259s</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>HAM</td>
+              <td>+49.671s</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>ALO</td>
+              <td>+56.184s</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>RUSG</td>
+              <td>+63.101s</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>NORL</td>
+              <td>+73.719s</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>OCO</td>
+              <td>+74.719s</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>STR</td>
+              <td>+79.353s</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>TSU</td>
+              <td>+80.221s</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td>GAS</td>
+              <td>+83.084s</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>12</td>
+              <td>BOT</td>
+              <td>+85.191s</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>13</td>
+              <td>ZHOU</td>
+              <td>+95.441s</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td>ALBA</td>
+              <td>+96.184s</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>15</td>
+              <td>MAG</td>
+              <td>+101.754s</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>16</td>
+              <td>RIC</td>
+              <td>+103.071s</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>17</td>
+              <td>SARL</td>
+              <td>+104.476s</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>18</td>
+              <td>HUL</td>
+              <td>+110.450s</td>
+              <td>1</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
